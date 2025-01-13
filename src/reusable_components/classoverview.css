@@ -1,0 +1,21 @@
+.custom-table th {
+    background-color: #ffffff !important; /* White background for table headings */
+    color: #000000 !important; /* Black text color for headings */
+  }
+  
+  .custom-table td {
+    background-color: #ffffff !important; /* White background for table cells */
+    color: #6c757d !important; /* Text color #6c757d for table rows */
+  }
+  
+  .custom-table th, .custom-table td {
+    border: none !important; /* Remove column lines */
+  }
+  
+  .custom-table th.sorting_asc::after {
+    content: "▲"; /* Add sorting symbol for ascending order */
+  }
+  
+  .custom-table th.sorting_desc::after {
+    content: "▼"; /* Add sorting symbol for descending order */
+  }

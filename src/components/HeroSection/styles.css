@@ -1,0 +1,66 @@
+/* Hero Section */
+.hero-section {
+  height: 100vh;
+  background: url('/images/hero-background.jpg') no-repeat center center/cover;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.hero-section .highlight {
+  color: #f0ad4e;
+  font-weight: bold;
+}
+
+/* Navbar Customization */
+.navbar {
+  box-shadow: none !important;
+  transition: background-color 0.3s ease;
+}
+
+.navbar {
+  background-color: #f8f9fa; /* Light background color */
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: transparent;
+}
+
+/* Button Customization */
+.btn {
+  background-color: #7f00ff;
+  color: white;
+  border: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #bf40bf;
+  color: white;
+}
+
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Main Content Styles */
+.main-content {
+  background-color: #f8f9fa;
+  min-height: 100vh;
+  padding-top: 60px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .hero-section {
+    height: auto;
+    padding: 50px 0;
+  }
+}

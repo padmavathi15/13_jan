@@ -1,0 +1,96 @@
+
+
+.custom-table-header th {
+  background-color: white !important; /* Green background */
+  color: black !important; /* White text */
+  text-align: center; /* Centered text */
+  padding: 10px; /* Padding */
+  border-bottom: 2px solid #ddd; /* Optional border */
+}
+
+.rounded-pill.edit{
+  border-radius: 50rem !important;
+  background-color: white;
+  color: #ffa500;
+  border: 1px solid #ffa500;
+}
+
+.rounded-pill.edit:hover{ 
+  background-color: #ffa500 !important;
+  color:white !important;
+}
+.rounded-pill.delete{
+  border-radius: 50rem !important;
+  background-color: white;
+  color: rgb(249,59,59);
+  border: 1px solid rgb(249,59,59);
+}
+
+.rounded-pill.delete:hover{ 
+  background-color: rgb(249,59,59) !important;
+  color:white !important;
+}
+.search-input{
+  width: 150px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  
+}
+
+.section {
+  
+  margin-left: 500px;
+  align-items: center;
+}
+
+.submitbtn {
+  background-color: white !important;
+  border: 1px solid #4b49ac !important;
+  color: #4b49ac !important;
+  border-radius: 25px; /* Adds rounded-pill style */
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth hover transition */
+}
+
+
+.resetbtn {
+  background-color: white !important;
+  border: 1px solid #4b49ac !important;
+  color: #4b49ac !important;
+  border-radius: 25px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.resetbtn:hover {
+  background-color: #4b49ac !important;
+  color:white !important;
+}
+
+.cancelbtn {
+  background-color: white !important;
+  border: 1px solid #4b49ac !important;
+  color: #4b49ac !important;
+  border-radius: 25px;
+  padding: 8px 16px;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.cancelbtn:hover {
+  background-color: #4b49ac !important;
+  color:white !important;
+}
+
+
+

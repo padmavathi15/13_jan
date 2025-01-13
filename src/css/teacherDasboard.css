@@ -1,0 +1,54 @@
+.rounded-pill.edit {
+    border-radius: 50rem !important;
+    background-color: white;
+    color: #ffa500;
+    border: 1px solid orange;
+}
+
+/* Custom CSS for Buttons */
+.custom-present-btn {
+    background-color: white;
+    color: white;
+    border: orange;
+    border-radius: 50rem !important;
+    color: orange !important; /* White text */
+    padding: 6px 20px;
+    border: 1px solid #ffa500;
+}
+
+.custom-absent-btn {
+    background-color: white;
+    color: white;
+    border: red;
+    border-radius: 50rem !important;
+    color: red !important; /* White text */
+    padding: 6px 20px;
+    border: 1px solid red;
+}
+
+.custom-class-select {
+    background-color: white;
+    color: white;
+    border: orange;
+    border-radius: 50rem !important;
+    color: orange !important; /* White text */
+    padding: 6px 20px;
+    border: 1px solid #ffa500;
+}
+    
+
+
+.rounded-pill.edit {
+    border-radius: 50rem !important;
+    background-color: white;
+    color: #ffa500;
+    border: 1px solid #ffa500;
+}
+.centered-container {
+    display: flex;
+    justify-content: center; /* Horizontally center */
+    align-items: center;    /* Vertically center */
+    height: 15vh;          /* Full viewport height */
+    text-align: center;     /* Center text alignment */
+    background-color: #f8f9fa; /* Optional: Light background color */
+}

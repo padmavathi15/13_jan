@@ -1,0 +1,181 @@
+/* Global styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: sans-serif;
+}
+
+.page-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  flex: 1;
+  padding: 20px;
+  background-color: #f5f7ff;
+  overflow-y: hidden; /* Allow vertical scrolling */
+}
+
+h4 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Custom table styles */
+.custom-table th, .custom-table td {
+  background-color: #ffffff !important;
+  color: #6c757d !important;
+  padding: 10px;
+  text-align: center;
+}
+
+.custom-table th {
+  background-color: #f1f1f1;
+  color: #000000 !important;
+}
+
+.custom-table tr {
+  border-top: 1px solid #6c757d;
+  border-bottom: 1px solid #6c757d;
+}
+
+.custom-table {
+  width: 100%;
+  table-layout: auto;
+  margin: 0 auto;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+/* Responsive Table Container */
+.table-responsive {
+  width: 100%;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  padding: 10px 0;
+  box-sizing: border-box;
+  -webkit-overflow-scrolling: touch;
+  margin: 0;
+}
+
+/* Modal styling */
+.custom-modal .modal-content {
+  max-height: 70vh;
+  overflow-y: auto;
+}
+
+/* Button styles */
+.submitbtn, .editbtn, .savemodals, .canceldel {
+  border-radius: 5px;
+  padding: 8px 16px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.submitbtn {
+  background-color: white !important;
+  border: 1px solid #4b49ac !important;
+  color: #4b49ac !important;
+}
+
+.submitbtn:focus, .submitbtn:active {
+  box-shadow: none;
+  background-color: white;
+  border-color: #4b49ac;
+  color: #4b49ac;
+}
+
+.editbtn {
+  background-color: white !important;
+  border: 1px solid #ffa500 !important;
+  color: #ffa500 !important;
+}
+
+.editbtn:focus, .editbtn:active {
+  box-shadow: none;
+  background-color: white;
+  border-color: #ffa500;
+  color: #ffa500;
+}
+
+.savemodals {
+  background-color: white !important;
+  border: 1px solid #008000 !important;
+  color: #008000 !important;
+}
+
+.savemodals:focus, .savemodals:active {
+  box-shadow: none;
+  background-color: white;
+  border-color: #008000;
+  color: #008000;
+}
+
+.canceldel {
+  background-color: white !important;
+  border: 1px solid rgb(249, 59, 59) !important;
+  color: rgb(249, 59, 59) !important;
+}
+
+.canceldel:focus, .canceldel:active {
+  box-shadow: none;
+  background-color: white;
+  border-color: rgb(249, 59, 59);
+  color: rgb(249, 59, 59);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .custom-table th, .custom-table td {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+  .table-responsive {
+    overflow-x: auto; /* Allow horizontal scrolling */
+    padding: 5px 0; /* Adjust padding */
+    margin-left: 0; /* Remove left margin */
+    margin-right: 0; /* Remove right margin */
+    box-sizing: border-box;
+  }
+
+  .submitbtn, .editbtn, .savemodals, .canceldel {
+    padding: 8px 14px;
+  }
+}
+
+/* Styles for small screens */
+@media (max-width: 480px) {
+  .custom-table th, .custom-table td {
+    padding: 6px;
+    font-size: 12px;
+  }
+
+  .submitbtn, .editbtn, .savemodals, .canceldel {
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .forms-sample {
+    padding: 8px;
+  }
+
+  h4 {
+    font-size: 1.2rem;
+  }
+
+  .custom-table {
+    width: 100%;
+    box-sizing: border-box;
+    margin-left: 150px;
+  }
+
+  .table-responsive {
+    padding: 5px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

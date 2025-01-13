@@ -1,0 +1,39 @@
+
+
+.custom-table-header th {
+    background-color: white !important; /* Green background */
+    color: black !important; /* White text */
+    text-align: center; /* Centered text */
+    padding: 10px; /* Padding */
+    border-bottom: 2px solid #ddd; /* Optional border */
+  }
+
+  .rounded-pill.edit{
+    border-radius: 50rem !important;
+    background-color: white;
+    color: #ffa500;
+    border: 1px solid #ffa500;
+  }
+  .rounded-pill.delete{
+    border-radius: 50rem !important;
+    background-color: white;
+    color: rgb(249,59,59);
+    border: 1px solid rgb(249,59,59);
+  }
+
+  .search-input{
+    width: 150px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    
+  }
+
+  .section {
+    
+    margin-left: 500px;
+    align-items: center;
+  }
+
+ 

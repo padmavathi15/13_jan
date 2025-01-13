@@ -1,0 +1,328 @@
+
+  
+/* Final Exam Report Container */
+.final-report-container {
+    background-color: #dae7ff;
+    padding: 30px;
+    border-radius: 10px;
+    height: 100vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin: 0 auto;
+    
+  }
+  
+  /* Title Styling */
+  .final-report-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #4b49ac;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styling */
+  .report-form {
+    margin-bottom: 30px;
+  }
+  
+  .report-form .form-label {
+    font-weight: 500;
+    font-size: 14px;
+  }
+  
+  .report-form .form-select {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .report-form .form-select:focus {
+    border-color: #4b49ac;
+    outline: none;
+  }
+  
+  /* Button Styling */
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  /* Primary Button (Show Report) */
+  button.primary-btn {
+    background-color: #4b49ac;
+    color: white;
+  }
+  
+  button.primary-btn:hover {
+    background-color: #383477;
+  }
+  
+  /* Success Button (Send Report) */
+  button.success-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button.success-btn:hover {
+    background-color: #218838;
+  }
+  
+  /* Report Details Section */
+  .report-details {
+    margin-top: 30px;
+  }
+  
+  .report-details .row {
+    margin-bottom: 15px;
+  }
+  
+  .report-details strong {
+    font-weight: 600;
+  }
+  
+  /* Marks Table */
+  .marks-table {
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .marks-table th,
+  .marks-table td {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .marks-table th {
+    background-color: #4b49ac;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .marks-table td {
+    background-color: #f9f9f9;
+    font-size: 14px;
+  }
+  
+  .marks-table td.pass {
+    color: green;
+  }
+  
+  .marks-table td.fail {
+    color: red;
+  }
+  
+  /* Report Summary */
+  .report-summary {
+    margin-top: 30px;
+  }
+  
+  .report-summary p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #333;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .final-report-container {
+      padding: 20px;
+    }
+  
+    .final-report-title {
+      font-size: 18px;
+    }
+  
+    .marks-table th,
+    .marks-table td {
+      font-size: 12px;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
+  
+    .report-summary p {
+      font-size: 14px;
+    }
+  }
+    /* Shared Styles */
+body {
+    font-family: 'Sans-serif';
+    background-color: #dae7ff;
+  }
+  
+  h4 {
+    color: #4b49ac;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  button.primary-btn {
+    background-color: #4b49ac;
+    color: white;
+  }
+  
+  button.primary-btn:hover {
+    background-color: #383477;
+  }
+  
+  button.success-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button.success-btn:hover {
+    background-color: #218838;
+  }
+  
+  table th {
+    background-color: #4b49ac;
+    color: white;
+  }
+  
+  table td {
+    background-color: #f9f9f9;
+  }
+  
+  .marks-table th,
+  .marks-table td {
+    text-align: center;
+    padding: 12px;
+    border: 1px solid #ddd;
+  }
+  
+  .marks-table td.pass {
+    color: green;
+  }
+  
+  .marks-table td.fail {
+    color: red;
+  }
+  
+  @media (max-width: 768px) {
+    button {
+      padding: 8px 16px;
+    }
+  
+    h4 {
+      font-size: 18px;
+    }
+  
+    .marks-table th,
+    .marks-table td {
+      font-size: 12px;
+    }
+  }
+  /* Quarterly Report Styles */
+.quarterly-report-container {
+    background-color: #dae7ff; /* Light background */
+    padding: 30px;
+    min-height: 100vh;
+    font-family: 'Sans-serif';
+    border-radius: 10px;
+  }
+  
+  .report-header {
+    margin-bottom: 20px;
+  }
+  
+  .report-header h4 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #4b49ac;
+  }
+  
+  .report-form {
+    margin-bottom: 20px;
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: #4b49ac;
+    color: white;
+  }
+  
+  .table td {
+    background-color: #f9f9f9;
+  }
+  
+  .report-summary {
+    margin-top: 20px;
+  }
+  
+  .report-summary p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  button {
+    font-size: 16px;
+    padding: 8px 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    border: none;
+  }
+  
+  button.primary-btn {
+    background-color: #4b49ac;
+    color: white;
+  }
+  
+  button.primary-btn:hover {
+    background-color: #383477;
+  }
+  
+  button.success-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  button.success-btn:hover {
+    background-color: #218838;
+  }
+  
+  @media (max-width: 768px) {
+    .quarterly-report-container {
+      padding: 20px;
+    }
+  
+    .report-header h4 {
+      font-size: 20px;
+    }
+  
+    .table th, .table td {
+      font-size: 12px;
+    }
+  
+    button {
+      padding: 8px 16px;
+    }
+  
+    .report-summary p {
+      font-size: 14px;
+    }
+  }
+  
